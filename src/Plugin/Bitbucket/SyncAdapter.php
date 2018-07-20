@@ -67,7 +67,7 @@ class SyncAdapter implements SyncAdapterInterface
      */
     public function synchronizePackages(Remote $remote)
     {
-        $existingPackages = $this->entityManager->getRepository('SLONline\Packages\Entity\Package')->findBy(['remote' => $remote]);
+        $existingPackages = $this->entityManager->getRepository('Terramar\Packages\Entity\Package')->findBy(['remote' => $remote]);
 
         $projects = $this->getAllProjects($remote);
 

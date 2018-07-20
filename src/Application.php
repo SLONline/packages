@@ -23,6 +23,7 @@ use Terramar\Packages\Plugin\GitLab\Plugin as GitLabPlugin;
 use Terramar\Packages\Plugin\PluginInterface;
 use Terramar\Packages\Plugin\Sami\Plugin as SamiPlugin;
 use Terramar\Packages\Plugin\Satis\Plugin as SatisPlugin;
+use SLONline\Packages\Plugin\Bitbucket\Plugin as BitbucketPlugin;
 
 class Application extends BaseApplication
 {

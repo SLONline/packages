@@ -8,6 +8,9 @@ doctrine:
     default:
       paths: [ '%app.root_dir%/src/Entity', '%app.root_dir%/src/Plugin' ]
       namespace: Terramar
+    SLONline:
+      paths: [ '%app.root_dir%/src/Entity', '%app.root_dir%/src/Plugin' ]
+      namespace: SLONline
     
   database:
     # Any Doctrine driver
