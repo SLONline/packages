@@ -71,6 +71,7 @@ class Application extends BaseApplication
      */
     protected function registerDefaultPlugins()
     {
+	    $this->registerPlugin(new BitbucketPlugin());
         $this->registerPlugin(new GitLabPlugin());
         $this->registerPlugin(new GitHubPlugin());
         $this->registerPlugin(new CloneProjectPlugin());

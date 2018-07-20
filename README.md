@@ -5,9 +5,9 @@ Packages
 
 [![Build Status](https://travis-ci.org/terramar-labs/packages.svg?branch=master)](https://travis-ci.org/terramar-labs/packages)
 
-Packages is a PHP 5.6 and 7.x application providing an interface and tools for maintaining a private [Composer](https://getcomposer.org) repository. Packages extends [Satis](https://github.com/composer/satis), adding a web frontend and useful management functionality like GitHub and GitLab integration.
+Packages is a PHP 5.6 and 7.x application providing an interface and tools for maintaining a private [Composer](https://getcomposer.org) repository. Packages extends [Satis](https://github.com/composer/satis), adding a web frontend and useful management functionality like GitHub, GitLab and Bitbucket integration.
 
-Packages automatically registers GitLab and GitHub project webhooks to keep Satis up to date every time you push code. Packages also features a web management interface that allows for easy management of exposed packages and configured source control repositories.
+Packages automatically registers GitLab, GitHub and Bitbucket project webhooks to keep Satis up to date every time you push code. Packages also features a web management interface that allows for easy management of exposed packages and configured source control repositories.
 
 Packages version 3 works on a plugin based system based around source code repositories. Packages can trigger, with each code push, many automated tasks like documentation generation or code  analysis. The simple event-based architecture allows easy creation of new automation tasks.
 
@@ -22,10 +22,10 @@ Requirements:
  * Some database platform supported by [Doctrine 2](http://doctrine-project.org) (sqlite works great!)
  * [Redis](https://redis.io/) 
 
-Download the [latest release](https://github.com/terramar-labs/packages/releases/latest), or clone the repository.
+Download the [latest release](https://github.com/SLONline/packages/releases/latest), or clone the repository.
 
 ```bash
-git clone git@github.com:terramar-labs/packages.git
+git clone git@github.com:SLONline/packages.git
 ```
 
 ### Install dependencies
